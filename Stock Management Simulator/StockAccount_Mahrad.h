@@ -65,11 +65,11 @@ private:
 	
 	
 };
-// read stock file (results.txt)
+// read stock file (Stocks.txt)
 void StockAccount::readStockFile(string company_name[], double price_per_share[], string date[])
 {
 	ifstream stockfile;
-	stockfile.open("Results.txt");
+	stockfile.open("Stocks.txt");
 	int i=0;
 	while(!stockfile.eof())
 	{

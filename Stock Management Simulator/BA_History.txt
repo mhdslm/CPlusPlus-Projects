@@ -1,4 +1,2 @@
-Withdraw        $500        8/8/2104
-Deposit        $500        8/8/2094
-Withdraw        $9500        8/8/2104
-Deposit        $400        6/8/2095
+Deposit        $400        6/8/2015
+Withdraw        $200        6/8/2105

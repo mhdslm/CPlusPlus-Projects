@@ -57,7 +57,7 @@ double BankAccount::Deposit(double myAmount)
 	ofstream file;	
 	file.open("BA_History.txt",std::ios_base::app);
 	file << "Deposit" << setw(9) <<"$" << amount <<setw(9)
-		<<1+t->tm_mon<<"/"<<t->tm_mday<<"/"<<1980+t->tm_year << endl;
+		<<1+t->tm_mon<<"/"<<t->tm_mday<<"/"<<1900+t->tm_year << endl;
 	return cash_balance;
 }
 

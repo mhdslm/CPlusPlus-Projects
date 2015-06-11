@@ -3,13 +3,18 @@
 // Course : 16:332:503 , PM for Financial Applications and Numerical Computing.
 //Final Project : Account Management System
 
+// Stocks.txt contains stocks with their price per share
+// Account Information are stored in account_information.txt
+// Bank Account history (withdraws and deposits) are stored in BA_History.txt
+// Stock Transaction history are stored in stock_transaction_history.txt
+
 #include<iostream>														// used for input/output in the C++
 #include<conio.h>
 #include<cstdlib>														//standard tempplate library
 
 
 #include "StockAccount_Mahrad.h"										//header file for StockAccount class definitions
-#include "BankAccount_Mahrad.h"										//header file for StockAccount class definitions
+#include "BankAccount_Mahrad.h"											//header file for StockAccount class definitions
 #include "List_Mahrad.h"												//header file for List class definitions
 
 int main()
@@ -27,7 +32,7 @@ int main()
 	double trans_price[60], trans_total[60];
 	int trans_num[60];
 
-	//for results file
+	//for stocks file
 	string company_name[60], date[60];
 	double price_per_share[60];
 	int account_index;
